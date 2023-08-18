@@ -1,0 +1,71 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+#mock{
+    padding-top: 20px;
+    padding-left: 30px;
+    font: bolder;
+    height: 40px;
+    vertical-align: center;
+    background-color:rgb(150, 135, 246);
+}
+#hey{
+color: brown;
+}
+#row{
+    border: 1px solid black;
+    background-color:rgb(234, 237, 240);
+}
+#data-table{
+    background-color:rgb(234, 237, 240);
+    border: 1px solid black;
+
+}
+#mon{
+    width:23%;
+}
+table{
+    width: 100%;
+    border-spacing: 0px 0px;
+    table-layout: fixed;
+}
+#wid{
+    width:auto;
+}
+#opdata{
+    border: none;
+    padding-left: 86%;
+}
+#adduser{
+    float: right;
+    border: none;
+    padding-right: 30px;
+}
+td,th{
+    border: 1px solid black;
+    font-size: larger;
+    padding: 8px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.col{
+    background-color:black;
+}
+#box{
+    position:fixed;
+    top: 10%;
+    left: 50%;
+    background-color:rgb(161, 225, 161);
+    width: 400px;
+    height: 260px;
+    border: 4px solid rebeccapurple;
+    border-radius: 4px;
+}
+#items{
+    padding-left: 20%;  
+}
+.visi{
+    visibility:hidden;
+}

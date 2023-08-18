@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./sty.css">
+    <title>AJAX</title>
+</head>
+<body>
+  <div id="mock"><strong>MOCK</strong>
+    <i style="cursor: pointer;" onclick="inser()" id="opdata" class="fa-solid fa-binoculars fa-fade fa-lg"></i>
+    <i style="cursor: pointer;" id="adduser" onclick="op()" class="fa-solid fa-user-plus "></i>
+  </div>
+  <div id="addrow">
+    <div id="box">
+    <form id="items">
+      <h2 style="align-items: center;">Add User</h2>
+      <i onclick="clos()" style="float: right; padding-right: 20px;" class="fa-solid fa-circle-xmark fa-xl"></i>
+    <label for="name">Name:</label>
+    <input  type="text" id="name" name="name" required><br><br>
+
+    <label for="age">Age:</label>
+    <input style="margin-left: 10px;" type="number" id="age" name="age" required><br><br>
+
+    <label for="state">State:</label>
+    <select style="margin-left: 20px;" id="state" name="state" required>
+        <option value="" disabled selected>Select a state</option>
+        <option value="Andhra Pradesh">Andhra Pradesh</option>
+        <option value="Telangana">Telangana</option>
+        <option value="Maharastra">Maharastra</option>
+        <option value="Mizoram">Mizoram</option>
+        <option value="Madya pradesh ">Madya pradesh</option>
+        <option value="kerala">kerala</option>
+        <option value="sikkim">sikkim</option>
+
+    </select><br><br><br>
+
+    <button onclick="adduser()" style="margin-left: 80px; border:lightgreen; height: 30px; width: 100px; background-color: lightsalmon; cursor: pointer;" type="button" >Add</button>
+ 
+    </form>
+  </div>
+  </div>
+    <div id="top">
+        <table id="datatable">
+            <thead>
+              <tr id="ro">
+                <th>Name</th>
+                <th>Age</th>
+                <th>State</th>
+                <th id="mon">Data Monitoring</th>
+              </tr>
+            </thead>
+            <tbody id="add">
+            </tbody>
+          </table>
+    </div>
+    <script src="./scri.js"></script>
+    <script src="https://kit.fontawesome.com/137c7865ef.js" crossorigin="anonymous"></script>
+</body>
+</html>
